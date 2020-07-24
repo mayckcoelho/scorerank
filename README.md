@@ -3,11 +3,8 @@
 Este repositório contém o projeto de um aplicativo rank de Score
 
 ## Telas
-![](./screen/ss1.png)
-![](./screen/ss2.png)
-![](./screen/ss3.png)
-![](./screen/ss4.png)
-![](./screen/ss5.png)
+![](./screen/ss1.png=100x400) ![](./screen/ss2.png=100x400) ![](./screen/ss3.png=100x400) 
+![](./screen/ss4.png=100x400) ![](./screen/ss5.png=100x400)
 
 ## Mock
 
