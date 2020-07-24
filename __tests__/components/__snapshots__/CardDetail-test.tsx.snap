@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardDetail should render correctly match snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 6,
+        "marginBottom": 20,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 20,
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+        "shadowColor": "rgba(0, 0, 0, .3)",
+        "shadowOffset": Object {
+          "height": 5,
+          "width": 0,
+        },
+        "shadowOpacity": 1,
+        "shadowRadius": 8,
+        "width": "95%",
+      },
+      Object {
+        "backgroundColor": "#fff",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        },
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontSize": 22,
+          },
+          undefined,
+          Object {
+            "fontFamily": "FontAwesome",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 18,
+            "marginLeft": 10,
+          },
+          Object {
+            "color": "#fff",
+          },
+        ]
+      }
+    >
+      Test
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#676767",
+          "height": 1,
+          "marginBottom": 20,
+          "marginLeft": 0,
+          "marginRight": 0,
+          "marginTop": 20,
+          "width": "100%",
+        },
+      ]
+    }
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#676767",
+          "fontSize": 18,
+        },
+      ]
+    }
+  >
+    Test
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 30,
+          "marginLeft": 0,
+          "marginRight": 0,
+          "marginTop": 30,
+        },
+      ]
+    }
+  >
+    <Image
+      resizeMode="contain"
+      source={
+        Object {
+          "uri": "",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 70,
+            "width": 120,
+          },
+        ]
+      }
+    />
+    <View>
+      <Text
+        style={
+          Array [
+            Object {
+              "alignSelf": "flex-end",
+              "color": "#b2b2b2",
+              "fontSize": 16,
+            },
+            Object {
+              "textDecorationLine": "none",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "alignSelf": "flex-end",
+              "color": "#757575",
+              "fontSize": 20,
+              "marginBottom": 5,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 5,
+            },
+          ]
+        }
+      >
+        Test
+      </Text>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "color": "#6a1e55",
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "marginRight": 5,
+          },
+        ]
+      }
+    >
+      Test
+    </Text>
+  </View>
+</View>
+`;

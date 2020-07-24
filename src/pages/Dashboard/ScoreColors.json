@@ -1,0 +1,35 @@
+[
+    {
+        "step": 30,
+        "description": "baixa",
+        "colors": {
+            "gradient": [
+                "#ca6a38",
+                "#dfb43f"
+            ],
+            "progress": "#dd6233"
+        }
+    },
+    {
+        "step": 60,
+        "description": "média",
+        "colors": {
+            "gradient": [
+                "#80bebd",
+                "#d3b34e"
+            ],
+            "progress": "#6ec0b9"
+        }
+    },
+    {
+        "step": 100,
+        "description": "alta",
+        "colors": {
+            "gradient": [
+                "#20545d",
+                "#75bfb8"
+            ],
+            "progress": "#215760"
+        }
+    }
+]

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should render correctly match snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 6,
+        "marginBottom": 20,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 20,
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+        "shadowColor": "rgba(0, 0, 0, .3)",
+        "shadowOffset": Object {
+          "height": 5,
+          "width": 0,
+        },
+        "shadowOpacity": 1,
+        "shadowRadius": 8,
+        "width": "95%",
+      },
+      Object {
+        "backgroundColor": "#fff",
+      },
+    ]
+  }
+/>
+`;

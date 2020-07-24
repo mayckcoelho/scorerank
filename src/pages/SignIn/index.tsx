@@ -1,20 +1,46 @@
 import React from 'react'
-import { Button } from 'react-native'
-import { useAuth } from '../../contexts/auth'
+import {
+    View,
+    Platform,
+    Text,
+    TouchableOpacity
+} from 'react-native'
 
-import { Container } from './styles'
+import SignInForm from "./SignInForm";
+import FacebookButtom from "../../components/FacebookButtom";
+import GoogleButtom from "../../components/GoogleButtom";
+import {
+    Title,
+    KeyboardAvoiding,
+    LogoImage,
+    RegisterView,
+    RegisterText
+} from './styles'
 
-const SignIn: React.FC = () => {
-    const { signed, signIn } = useAuth();
+interface Props {
+    navigation?: any;
+}
 
-    const handleSignIn = () => {
-        signIn();
-    }
+const SignIn: React.FC<Props> = ({ navigation }) => {
 
     return (
-        <Container>
-            <Button title="Sign In" onPress={handleSignIn} />
-        </Container>
+        <KeyboardAvoiding behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
+            <View>
+                <LogoImage source={require("../../assets/logo.png")} resizeMode="contain" />
+                <Title>Entre na sua conta</Title>
+                <SignInForm />
+                <RegisterView>
+                    <Text>Não tem uma conta?</Text>
+                    <TouchableOpacity onPress={() => navigation.navigate("Register")}>
+                        <RegisterText>
+                            Crie uma aqui
+                        </RegisterText>
+                    </TouchableOpacity>
+                </RegisterView>
+                <FacebookButtom />
+                <GoogleButtom />
+            </View>
+        </KeyboardAvoiding>
     )
 };
 

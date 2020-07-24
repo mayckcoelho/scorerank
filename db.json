@@ -1,0 +1,140 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstname": "José da Silva",
+      "lastname": "",
+      "email": "josesilva0@gmail.com",
+      "password": "$2a$10$T3QzhQLRfJJiugre4OOS6.TUb4rVNSyJui/25X3gxfxueeI5BsgLi",
+      "score": 30,
+      "avatar": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=adult-beard-boy-casual-220453.jpg&fm=jpg"
+    },
+    {
+      "email": "mayck@mail.com",
+      "password": "$2a$10$Ox3871X/60urY6sy4OCXE.5AYAGaLXEll7U/GFuV8pKZWlxQ/ha7C",
+      "firstname": "Mayck Coelho",
+      "avatar": null,
+      "score": 11,
+      "lastname": "",
+      "id": 2
+    }
+  ],
+  "debts": [
+    {
+      "id": 1,
+      "userId": 2,
+      "companyname": "Xbox 360",
+      "companylogo": "https://pt.freelogodesign.org/Content/img/logo-samples/flooop.png",
+      "fullvalue": "R$ 132,00",
+      "newvalue": "R$ 79,00"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "companyname": "Xbox 360",
+      "companylogo": "https://logodownload.org/wp-content/uploads/2017/11/telegram-logo.png",
+      "fullvalue": "R$ 312,00",
+      "newvalue": "R$ 79,00"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "companyname": "Xbox 360",
+      "companylogo": "https://pluspng.com/img-png/png-logo-design-fancy-png-logo-design-91-on-professional-logo-design-with-png-logo-design-734.png",
+      "fullvalue": "R$ 455,00",
+      "newvalue": "R$ 150,00"
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "companyname": "Xbox 360",
+      "companylogo": "https://www.talentsoft.net.br/wp-content/uploads/2019/02/knauf-logo-png-transparent.png",
+      "fullvalue": "R$ 433,00",
+      "newvalue": "R$ 115,00"
+    },
+    {
+      "id": 5,
+      "userId": 2,
+      "companyname": "Xbox 360",
+      "companylogo": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Android_O_Preview_Logo.png",
+      "fullvalue": "R$ 90,00",
+      "newvalue": "R$ 15,00"
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "companyname": "Xbox 360",
+      "companylogo": "https://pt.freelogodesign.org/Content/img/logo-samples/flooop.png",
+      "fullvalue": "R$ 132,00",
+      "newvalue": "R$ 79,00"
+    },
+    {
+      "id": 9,
+      "userId": 1,
+      "companyname": "Xbox 360",
+      "companylogo": "https://logodownload.org/wp-content/uploads/2017/11/telegram-logo.png",
+      "fullvalue": "R$ 312,00",
+      "newvalue": "R$ 79,00"
+    },
+    {
+      "id": 10,
+      "userId": 1,
+      "companyname": "Xbox 360",
+      "companylogo": "https://pluspng.com/img-png/png-logo-design-fancy-png-logo-design-91-on-professional-logo-design-with-png-logo-design-734.png",
+      "fullvalue": "R$ 455,00",
+      "newvalue": "R$ 150,00"
+    },
+    {
+      "id": 11,
+      "userId": 1,
+      "companyname": "Xbox 360",
+      "companylogo": "https://www.talentsoft.net.br/wp-content/uploads/2019/02/knauf-logo-png-transparent.png",
+      "fullvalue": "R$ 433,00",
+      "newvalue": "R$ 115,00"
+    },
+    {
+      "id": 13,
+      "userId": 1,
+      "companyname": "Xbox 360",
+      "companylogo": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Android_O_Preview_Logo.png",
+      "fullvalue": "R$ 90,00",
+      "newvalue": "R$ 15,00"
+    }
+  ],
+  "proposals": [
+    {
+      "id": 1,
+      "userId": 1,
+      "image": "https://logodownload.org/wp-content/uploads/2014/07/mastercard-logo-7.png",
+      "tax": "Anuidade Grátis",
+      "accepted": true,
+      "value": "R$ 2.000,00"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "image": "https://logodownload.org/wp-content/uploads/2014/07/mastercard-logo-7.png",
+      "tax": "Anuidade Grátis",
+      "accepted": true,
+      "value": "R$ 2.000,00"
+    }
+  ],
+  "protections": [
+    {
+      "id": 1,
+      "userId": 1,
+      "image": "https://pluspng.com/img-png/antivirus-guard-lock-police-protect-protection-safe-safety-512.png",
+      "tax": "Adquira Agora!",
+      "accepted": true,
+      "value": "10x R$ 79,00"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "image": "https://pluspng.com/img-png/antivirus-guard-lock-police-protect-protection-safe-safety-512.png",
+      "tax": "Adquira Agora!",
+      "accepted": true,
+      "value": "10x R$ 79,00"
+    }
+  ]
+}

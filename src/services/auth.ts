@@ -1,21 +1,12 @@
-interface SignInResponse {
-    token: string;
-    user: {
-        name: string;
-        email: string;
-    }
+import api from "./api";
+import ISignInRequest from "../interfaces/ISignInRequest";
+import ISignInResponse from "../interfaces/ISignInResponse";
+import IRegisterRequest from "../interfaces/IRegisterRequest"
+
+export async function signIn(data: ISignInRequest): Promise<ISignInResponse> {
+    return await api.post("/login", data)
 }
 
-export function signIn(): Promise<SignInResponse> {
-    return new Promise(resolve => {
-        setTimeout(() => {
-            resolve({
-                token: 'dkajhdlkaejfhlekjfhslkfjheslkfjh',
-                user: {
-                    name: 'Mayck Coelho',
-                    email: 'mayckcoelho0@gmail.com.br'
-                }
-            })
-        }, 2000)
-    })
+export async function register(data: IRegisterRequest): Promise<ISignInResponse> {
+    return await api.post("/register", data)
 }
