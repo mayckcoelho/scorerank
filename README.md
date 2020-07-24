@@ -8,12 +8,13 @@ Este repositório contém o projeto de um aplicativo rank de Score
 
 ## Mock
 
-Para fazer funcionar a api de mock é preciso rodar o comando:
+Para funcionar a api de mock é preciso rodar o comando:
 
-### yarn server
+```shell
+$ yarn server
+```
 
-
-Tecnologias utilizadas:
+## Tecnologias utilizadas:
 
  - ReactNative
  - TypeScript
